@@ -9,6 +9,7 @@ dataLayer.push({ page_data: null });  // Clear the previous page_data object.
 dataLayer.push({
   "event": "page_load_started",
   "detailed_event": "Page Load Started",
+    "detailed_event": "<detailed_event>",
     "page_data": {
         "breadcrumb": "<breadcrumb>",
         "country": "<country>",
@@ -32,6 +33,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|detailed_event|string|captures the "detailed\_event" name||||||||
 |page_data.breadcrumb|string|A delimited list of hierarchical sections that describe the current page's location within the navigation of the site.|Home&gt;Women&gt;Tops&gt;Sweaters, Mens - Tops - Sweaters - Supmina, Wool, Rayon, Checkout &gt; Order Thank You|||||||
 |page_data.country|string|The country the site is associated with.||||||||
 |page_data.email_message_id|string|Captures the ID associated with a given email message||||||||
