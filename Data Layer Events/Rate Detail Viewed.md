@@ -10,6 +10,7 @@ dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   "event": "view_item",
   "detailed_event": "Rate Detail Viewed",
+    "detailed_event": "<detailed_event>",
     "ecommerce": {
         "items": [
             {
@@ -37,6 +38,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|detailed_event|string|captures the "detailed\_event" name||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
 |ecommerce.items[n].location_id|string|The location associated with the event. If possible, set to the Google Place ID that corresponds to the associated item. Can also be overridden to a custom location ID string.|L\_12345|||||||
