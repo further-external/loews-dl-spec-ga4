@@ -9,6 +9,7 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   "event": "add_to_cart",
   "detailed_event": "Rate Selected",
+    "detailed_event": "<detailed_event>",
     "ecommerce": {
         "items": [
             {
@@ -32,6 +33,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|detailed_event|string|captures the "detailed\_event" name||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
 |ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
