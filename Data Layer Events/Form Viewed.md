@@ -9,6 +9,7 @@ dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   "event": "form_view",
   "detailed_event": "Form Viewed",
+    "detailed_event": "<detailed_event>",
     "event_data": {
         "event_type": "<event_type>",
         "identifier": "<identifier>",
@@ -21,9 +22,10 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|detailed_event|string|captures the "detailed\_event" name||||||||
 |event_data.event_type|string|Type of event an RFP is submitted for|meeting, wedding, social|||||||
 |event_data.identifier|string|Captures the unique ID of the form.|F-0113, 2543, CU001, PI-0988|||||||
-|event_data.type|string|Captures the type of form \(i.e. demo, free trial, contact us\).|Address, Contact, Comment, Review, Payment|||||||
+|event_data.type|string|Captures the type of form \(i.e. RFP, demo, free trial, contact us\).|Address, Contact, Comment, Review, Payment|||||||
 
 
 
