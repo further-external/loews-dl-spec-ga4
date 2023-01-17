@@ -11,6 +11,7 @@ dataLayer.push({
   "event": "purchase",
   "detailed_event": "Accommodation Booking Completed",
     "checkout_type": "<checkout_type>",
+    "detailed_event": "<detailed_event>",
     "ecommerce": {
         "coupon": "<coupon>",
         "currency": "<currency>",
@@ -20,11 +21,6 @@ dataLayer.push({
                 "days_before_start_date": <days_before_start_date>,
                 "departure_date": "<departure_date>",
                 "discount": <discount>,
-                "item_category": "<item_category>",
-                "item_category2": "<item_category2>",
-                "item_category3": "<item_category3>",
-                "item_category4": "<item_category4>",
-                "item_category5": "<item_category5>",
                 "item_id": "<item_id>",
                 "item_name": "<item_name>",
                 "location_id": "<location_id>",
@@ -52,17 +48,13 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |checkout_type|string|captures Checkout Type||||||||
+|detailed_event|string|captures the "detailed\_event" name||||||||
 |ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
 |ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
 |ecommerce.items[n].discount|number|Monetary value of discount associated with a purchase.|2.22|||||||
-|ecommerce.items[n].item_category|string|Item Category \(context-specific\). item\_category2 through item\_category5 can also be used if the item has many categories.|pants|||||||
-|ecommerce.items[n].item_category2|string|The second category of an item.||||||||
-|ecommerce.items[n].item_category3|string|The third category of an item.||||||||
-|ecommerce.items[n].item_category4|string|The fourth category of an item.||||||||
-|ecommerce.items[n].item_category5|string|The fifth category of an item.||||||||
 |ecommerce.items[n].item_id|string|Item ID \(context-specific\).The product primary ID \(SKU or UPC\)|SKU\_12345|||||||
 |ecommerce.items[n].item_name|string|Item Name \(context-specific\).|jeggings|||||||
 |ecommerce.items[n].location_id|string|The location associated with the event. If possible, set to the Google Place ID that corresponds to the associated item. Can also be overridden to a custom location ID string.|L\_12345|||||||
