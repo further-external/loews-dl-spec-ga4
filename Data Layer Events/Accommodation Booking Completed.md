@@ -18,6 +18,7 @@ dataLayer.push({
         "items": [
             {
                 "arrival_date": "<arrival_date>",
+                "coupon": "<coupon>",
                 "days_before_start_date": <days_before_start_date>,
                 "departure_date": "<departure_date>",
                 "discount": <discount>,
@@ -37,8 +38,7 @@ dataLayer.push({
         "value": <value>
     },
     "event_data": {
-        "payment_method": "<payment_method>",
-        "reservation_id": "<reservation_id>"
+        "payment_method": "<payment_method>"
     }
 });
 ```
@@ -52,6 +52,7 @@ dataLayer.push({
 |ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
+|ecommerce.items[n].coupon|string|Item-level coupon code used for a purchase.|SUMMER\_FUN|||||||
 |ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
 |ecommerce.items[n].discount|number|Monetary value of discount associated with a purchase.|2.22|||||||
@@ -68,7 +69,6 @@ dataLayer.push({
 |ecommerce.transaction_id|string|The unique identifier of a transaction.|T\_12345, 19283j2nm9jdjs|^[a-zA-Z0-9]{6,20}$|6|20||||
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
 |event_data.payment_method|string|Captures the payment methods used for a transaction \(i.e. credit card, Visa, MasterCard, Amex, Paypal, purchase order, etc\).|Credit Card, PayPal, Mastercard, Visa, Amex, Discover|||||||
-|event_data.reservation_id|string|Captures the reservation ID associated with each booking.||^[a-zA-Z0-9]{6,20}$|6|20||||
 
 
 
