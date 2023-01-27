@@ -20,12 +20,12 @@ dataLayer.push({
                 "market_code": "<market_code>",
                 "number_of_adults": <number_of_adults>,
                 "number_of_children": <number_of_children>,
+                "quantity": <quantity>,
                 "room_rate_code": "<room_rate_code>",
                 "room_type_code": "<room_type_code>"
             }
         ]
-    },
-    "nights_quantity": <nights_quantity>
+    }
 });
 ```
 
@@ -41,9 +41,9 @@ dataLayer.push({
 |ecommerce.items[n].market_code|string|captures the Market Code of the booking||||||||
 |ecommerce.items[n].number_of_adults|integer|Captures the number of adults in a booking||||||||
 |ecommerce.items[n].number_of_children|integer|captures the Number of Children in a booking \(ecommerce DE\)||||||||
+|ecommerce.items[n].quantity|integer|Captures the number of nights in the booking||||||||
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
-|nights_quantity|integer|captures the number of nights in the booking||||||||
 
 
 
