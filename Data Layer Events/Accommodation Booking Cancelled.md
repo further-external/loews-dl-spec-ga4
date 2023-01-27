@@ -32,8 +32,7 @@ dataLayer.push({
         "value": <value>
     },
     "event_data": {
-        "cancellation_id": "<cancellation_id>",
-        "reservation_id": "<reservation_id>"
+        "cancellation_id": "<cancellation_id>"
     }
 });
 ```
@@ -58,7 +57,6 @@ dataLayer.push({
 |ecommerce.transaction_id|string|The unique identifier of a transaction.|T\_12345, 19283j2nm9jdjs|^[a-zA-Z0-9]{6,20}$|6|20||||
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
 |event_data.cancellation_id|string|Captures the confirmation number associated with each booking cancellation.||||||||
-|event_data.reservation_id|string|Captures the reservation ID associated with each booking.||^[a-zA-Z0-9]{6,20}$|6|20||||
 
 
 
