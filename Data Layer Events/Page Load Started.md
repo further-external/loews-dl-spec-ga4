@@ -35,10 +35,10 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |detailed_event|string|captures the "detailed\_event" name||||||||
 |page_data.breadcrumb|string|A delimited list of hierarchical sections that describe the current page's location within the navigation of the site.|Home&gt;Women&gt;Tops&gt;Sweaters, Mens - Tops - Sweaters - Supmina, Wool, Rayon, Checkout &gt; Order Thank You|||||||
-|page_data.country|string|The country the site is associated with.||||||||
+|page_data.country|string|The country associated with the current page.|US, CA, FR, UK|||||||
 |page_data.email_message_id|string|Captures the ID associated with a given email message||||||||
 |page_data.email_message_link_id|string|Captures the ID associated with the specific link within an email||||||||
-|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.||||||||
+|page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
 |page_data.name|string|Captures the name of the page the user is on|product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
 |page_data.page_hash|string|Does the link point to a different domain?||||||||
 |page_data.page_location|string|The url of the page currently being viewed.||||||||
