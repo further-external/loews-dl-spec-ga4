@@ -6,7 +6,6 @@
 ```js
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
-dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   "event": "view_item",
   "detailed_event": "Rate Detail Viewed",
@@ -15,6 +14,7 @@ dataLayer.push({
         "items": [
             {
                 "arrival_date": "<arrival_date>",
+                "days_before_start_date": <days_before_start_date>,
                 "departure_date": "<departure_date>",
                 "location_id": "<location_id>",
                 "market_code": "<market_code>",
@@ -27,9 +27,6 @@ dataLayer.push({
                 "room_type_code": "<room_type_code>"
             }
         ]
-    },
-    "event_data": {
-        "days_to_start_date": <days_to_start_date>
     }
 });
 ```
@@ -40,6 +37,7 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |detailed_event|string|captures the "detailed\_event" name||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
+|ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
 |ecommerce.items[n].location_id|string|The location associated with the event. If possible, set to the Google Place ID that corresponds to the associated item. Can also be overridden to a custom location ID string.|L\_12345|||||||
 |ecommerce.items[n].market_code|string|captures the Market Code of the booking||||||||
@@ -50,7 +48,6 @@ dataLayer.push({
 |ecommerce.items[n].quantity|integer|Item quantity.|1|||||||
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
-|event_data.days_to_start_date|integer|Captures the booking window used in search criteria \(e.g. number of days prior to requested check-in date\).|1, 2, 3, 4, 5||||0|||
 
 
 
