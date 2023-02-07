@@ -11,7 +11,6 @@ dataLayer.push({
   "event": "purchase",
   "detailed_event": "Accommodation Booking Completed",
     "checkout_type": "<checkout_type>",
-    "detailed_event": "<detailed_event>",
     "ecommerce": {
         "coupon": "<coupon>",
         "currency": "<currency>",
@@ -24,7 +23,6 @@ dataLayer.push({
                 "discount": <discount>,
                 "item_id": "<item_id>",
                 "item_name": "<item_name>",
-                "location_id": "<location_id>",
                 "market_code": "<market_code>",
                 "number_of_adults": <number_of_adults>,
                 "number_of_children": <number_of_children>,
@@ -48,7 +46,6 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |checkout_type|string|captures Checkout Type||||||||
-|detailed_event|string|captures the "detailed\_event" name||||||||
 |ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
@@ -58,7 +55,6 @@ dataLayer.push({
 |ecommerce.items[n].discount|number|Monetary value of discount associated with a purchase.|2.22|||||||
 |ecommerce.items[n].item_id|string|Item ID \(context-specific\).The product primary ID \(SKU or UPC\)|SKU\_12345|||||||
 |ecommerce.items[n].item_name|string|Item Name \(context-specific\).|jeggings|||||||
-|ecommerce.items[n].location_id|string|The location associated with the event. If possible, set to the Google Place ID that corresponds to the associated item. Can also be overridden to a custom location ID string.|L\_12345|||||||
 |ecommerce.items[n].market_code|string|captures the Market Code of the booking||||||||
 |ecommerce.items[n].number_of_adults|integer|Captures the number of adults in a booking||||||||
 |ecommerce.items[n].number_of_children|integer|captures the Number of Children in a booking \(ecommerce DE\)||||||||
