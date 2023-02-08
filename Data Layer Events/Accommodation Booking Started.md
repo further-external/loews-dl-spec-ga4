@@ -9,7 +9,6 @@ dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
   "event": "begin_checkout",
   "detailed_event": "Accommodation Booking Started",
-    "detailed_event": "<detailed_event>",
     "ecommerce": {
         "currency": "<currency>",
         "items": [
@@ -19,7 +18,6 @@ dataLayer.push({
                 "departure_date": "<departure_date>",
                 "item_id": "<item_id>",
                 "item_name": "<item_name>",
-                "location_id": "<location_id>",
                 "market_code": "<market_code>",
                 "number_of_adults": <number_of_adults>,
                 "number_of_children": <number_of_children>,
@@ -38,14 +36,12 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|detailed_event|string|captures the "detailed\_event" name||||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
 |ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
 |ecommerce.items[n].item_id|string|Item ID \(context-specific\).The product primary ID \(SKU or UPC\)|SKU\_12345|||||||
 |ecommerce.items[n].item_name|string|Item Name \(context-specific\).|jeggings|||||||
-|ecommerce.items[n].location_id|string|The location associated with the event. If possible, set to the Google Place ID that corresponds to the associated item. Can also be overridden to a custom location ID string.|L\_12345|||||||
 |ecommerce.items[n].market_code|string|captures the Market Code of the booking||||||||
 |ecommerce.items[n].number_of_adults|integer|Captures the number of adults in a booking||||||||
 |ecommerce.items[n].number_of_children|integer|captures the Number of Children in a booking \(ecommerce DE\)||||||||
