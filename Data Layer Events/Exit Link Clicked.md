@@ -23,6 +23,6 @@ dataLayer.push({
 |event_data.identifier|string|Captures the ID associated with exit links used. |act now, cancel, ok, 3456, 8765|||||||
 |event_data.link_url|string|Captures the URL of the exit link.|https:\/\/www.usda.gov. https:\/\/msnbc.com|||||||
 
+## Attached Notes
 
-
-
+<p><span style="font-weight: 400;">Click a link that takes you to another page outside of Loews, e.g. &ldquo;Do Not Sell My Info&rdquo; in the footer </span></p>
