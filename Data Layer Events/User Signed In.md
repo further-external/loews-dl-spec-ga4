@@ -25,6 +25,6 @@ dataLayer.push({
 |page_data.user_login_state|string|Captures the current sign in status for the user \(i.e. signed\_out, signed\_in, unknown\).|logged in, logged out, guest|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
+## Attached Notes
 
-
-
+<p>User signs in.&nbsp;</p>
