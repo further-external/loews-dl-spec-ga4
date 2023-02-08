@@ -23,6 +23,6 @@ dataLayer.push({
 |event_data.coupon|string|Captures the coupon code associated with product level discounts for a transaction.|5OFFSHOES, AKRONCANDLES2019|||||||
 |event_data.discount_code_type|string|Type of discount code applied||||||||
 
+## Attached Notes
 
-
-
+<p>When a user's discount code entered succeeds.</p>
