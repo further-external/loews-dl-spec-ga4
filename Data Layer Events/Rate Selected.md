@@ -45,6 +45,8 @@ dataLayer.push({
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
 
+## Attached Notes
 
-
-
+<p>User selects a rate.</p>
+<p>On reservations.loewshotels.com, this is the "Select This Rate" button</p>
+<p>on be.synxis.com, this is the <span style="font-weight: 400;">&ldquo;Book Now&rdquo; button.</span></p>
