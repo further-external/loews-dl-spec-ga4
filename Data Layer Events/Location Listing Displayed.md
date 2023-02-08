@@ -38,6 +38,8 @@ dataLayer.push({
 |event_data.listing_driver|string|Listing Driver|Onsite Search, Curated Assortment, Navigation|||||||
 |event_data.type|string|Captures the methods that bring users to listings \(i.e. Onsite Search, Top Nav, External Link, Category Landing Page\). Does not update if listings are sorted, filtered, or paginated.|Product, Location, Event, Room, Content|||||||
 
+## Attached Notes
 
-
-
+<p>When a user views a list of different hotel locations</p>
+<p>On loews.com, this is the page <a href="https://www.loewshotels.com/destinations">https://www.loewshotels.com/destinations</a></p>
+<p>On be.synxis.com, this is the "Select a Hotel" step</p>
