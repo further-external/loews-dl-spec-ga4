@@ -23,6 +23,6 @@ dataLayer.push({
 |event_data.interstitial_name|string|Interstitial Name||||||||
 |event_data.interstitial_type|string|Captures the type of interstitial that was shown to visitors.|alert, offer, info required|||||||
 
+## Attached Notes
 
-
-
+<p>Users views an interstitial<br />ex: Click "cancellation policy" or other popup on final booking page ("Review &amp; Book")</p>
