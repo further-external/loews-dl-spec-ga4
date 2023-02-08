@@ -21,6 +21,6 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |page_data.user_login_state|string|Captures the current sign in status for the user \(i.e. signed\_out, signed\_in, unknown\).|logged in, logged out, guest|||||||
 
+## Attached Notes
 
-
-
+<p>This is information about the user. &nbsp;We will want to fire the events in this sequence.<br />Page Load Started &gt; User Detected &gt; Page Load Completed</p>
