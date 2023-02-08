@@ -37,6 +37,9 @@ dataLayer.push({
 |ecommerce.items[n].state|string|State|GA, NY, AZ|||||||
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
 
+## Attached Notes
 
-
-
+<p>Anytime a users visits a hotel specific url.<br />ex:</p>
+<p><a href="https://www.loewshotels.com/live-by-loews-arlington-texas">https://www.loewshotels.com/live-by-loews-arlington-texas</a></p>
+<p><a href="https://www.loewshotels.com/live-by-loews-arlington-texas/specials">https://www.loewshotels.com/live-by-loews-arlington-texas/specials</a></p>
+<p>&nbsp;</p>
