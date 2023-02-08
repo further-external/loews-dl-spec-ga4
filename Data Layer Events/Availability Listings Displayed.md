@@ -23,6 +23,6 @@ dataLayer.push({
 |event_data.finding_method|string|The method by which a user arrived at the availability listings displayed|Onsite Search|||||||
 |event_data.location_id|string|Captures the Location Id|155, 65588, 987764448|||||||
 
+## Attached Notes
 
-
-
+<p>This should fire when a user is presented with the option to select dates for their booking.</p>

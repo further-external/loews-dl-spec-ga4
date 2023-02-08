@@ -23,6 +23,6 @@ dataLayer.push({
 |event_data.file_name|string|Captures the file name associated with file downloads.|Year End 2012.pdf, Operating Instructions.doc`|||||||
 |event_data.identifier|string|Captures the ID associated with download links used.|act now, cancel, ok, 3456, 8765|||||||
 
+## Attached Notes
 
-
-
+<p>When a user clicks a link that downloads a document.<br />ex: Click "Catering Menu" here: https://www.loewshotels.com/coral-gables/meetings/function-space</p>

@@ -46,6 +46,6 @@ dataLayer.push({
 |event_data.number_of_items|integer|Count of rooms returned in room listings.|1, 21, 111, 166|||||||
 |event_data.type|string|Captures the methods that bring users to listings \(i.e. Onsite Search, Top Nav, External Link, Category Landing Page\). Does not update if listings are sorted, filtered, or paginated.|Product, Location, Event, Room, Content|||||||
 
+## Attached Notes
 
-
-
+<p>When multiple room listings are displayed.</p>

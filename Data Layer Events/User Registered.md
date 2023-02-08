@@ -25,6 +25,6 @@ dataLayer.push({
 |event_data.method|string|Captures the website method \(i.e. search, top nav\) used to find each product.|email, facebook, twitter|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 
+## Attached Notes
 
-
-
+<p>User registers for a loews account</p>

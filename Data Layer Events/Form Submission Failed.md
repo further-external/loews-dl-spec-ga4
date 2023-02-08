@@ -29,6 +29,6 @@ dataLayer.push({
 |event_data.location_id|string|Captures the Location Id|155, 65588, 987764448|||||||
 |event_data.type|string|Captures the type of form \(i.e. RFP, demo, free trial, contact us\).|Address, Contact, Comment, Review, Payment|||||||
 
+## Attached Notes
 
-
-
+<p>Form submission is unsuccessful.</p>

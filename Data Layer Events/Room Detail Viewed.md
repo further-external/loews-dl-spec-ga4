@@ -47,6 +47,8 @@ dataLayer.push({
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
 
+## Attached Notes
 
-
-
+<p>User views room details.</p>
+<p>On reservations.loewshotels.com, this is the "Details +" button on the room image</p>
+<p>On be.synxis.com, this is link that contains the name of the room, ex: "Deluxe King"</p>

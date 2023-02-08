@@ -21,6 +21,6 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.facets|string|Details filters used to refine a listing|sort\~price ascending\|color\~green\|size\~medium|||||||
 
+## Attached Notes
 
-
-
+<p>When a users adds a filter to their booking search.</p>

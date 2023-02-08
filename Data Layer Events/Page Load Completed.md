@@ -15,6 +15,6 @@ dataLayer.push({
 
 
 
+## Attached Notes
 
-
-
+<p>This event should fire once the page load is fully loaded.</p>

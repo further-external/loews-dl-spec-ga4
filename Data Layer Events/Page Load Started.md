@@ -43,6 +43,6 @@ dataLayer.push({
 |page_data.site_variant|string|Describes the version of the site that is being shown|Responsive, Mobile, Desktop|||||||
 |page_data.type|string|The type of page currently viewed.|home, pdp, article|||||||
 
+## Attached Notes
 
-
-
+<p>This is information about the page.&nbsp; We will want to fire the events in this sequence.<br />Page Load Started &gt; User Detected &gt; Page Load Completed</p>

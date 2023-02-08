@@ -25,6 +25,6 @@ dataLayer.push({
 |event_data.identifier|string|Captures the unique ID of the form.|F-0113, 2543, CU001, PI-0988|||||||
 |event_data.type|string|Captures the type of form \(i.e. RFP, demo, free trial, contact us\).|Address, Contact, Comment, Review, Payment|||||||
 
+## Attached Notes
 
-
-
+<p>Form on page enters users viewport.</p>

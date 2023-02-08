@@ -49,6 +49,6 @@ dataLayer.push({
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
 
+## Attached Notes
 
-
-
+<p>User clicks "Rate Details"</p>

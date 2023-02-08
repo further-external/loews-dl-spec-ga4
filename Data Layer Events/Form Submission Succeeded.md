@@ -29,6 +29,6 @@ dataLayer.push({
 |event_data.rfp_event_destination|string|Specific hotel an RFP is booked for||||||||
 |event_data.type|string|Captures the type of form \(i.e. RFP, demo, free trial, contact us\).|Address, Contact, Comment, Review, Payment|||||||
 
+## Attached Notes
 
-
-
+<p>Form submission is successful.</p>

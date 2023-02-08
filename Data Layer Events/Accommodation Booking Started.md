@@ -51,6 +51,11 @@ dataLayer.push({
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
 
+## Attached Notes
 
-
-
+<div class="pa-5 notes mb-5" data-v-39a3426a="">
+<div class="preview-content mt-3" data-v-39a3426a="">
+<p>This will fire on the final screen in the booking flow where a user enters personal info, credit card info, etc. Right now this is the 'Review &amp; Book' screen</p>
+</div>
+</div>
+<pre class="highlight mb-5" data-v-39a3426a="" data-qa="property-dataLayer-Accommodation Booking Started-wrapper">&nbsp;</pre>

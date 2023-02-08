@@ -66,6 +66,6 @@ dataLayer.push({
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
 |event_data.payment_method|string|Captures the payment methods used for a transaction \(i.e. credit card, Visa, MasterCard, Amex, Paypal, purchase order, etc\).|Credit Card, PayPal, Mastercard, Visa, Amex, Discover|||||||
 
+## Attached Notes
 
-
-
+<p>When the user has completed booking a room on the order confirmation page.</p>
