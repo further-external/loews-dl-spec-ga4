@@ -31,7 +31,8 @@ dataLayer.push({
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].city|string|city||||||||
-|ecommerce.items[n].item_id|string|Item ID \(context-specific\).The product primary ID \(SKU or UPC\)|SKU\_12345|||||||
+|ecommerce.items[n].item_id|string|Please reference this document to determine the Item ID
+https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_IaN-CBoHbRs\/edit\#gid=1543857253|6558, 70561|||||||
 |ecommerce.items[n].item_name|string|Item Name \(context-specific\).|jeggings|||||||
 |ecommerce.items[n].market_code|string|captures the Market Code of the booking||||||||
 |ecommerce.items[n].state|string|State|GA, NY, AZ|||||||
