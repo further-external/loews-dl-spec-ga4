@@ -21,7 +21,8 @@ dataLayer.push({
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 |event_data.finding_method|string|The method by which a user arrived at the availability listings displayed|Onsite Search|||||||
-|event_data.location_id|string|Captures the Location Id|155, 65588, 987764448|||||||
+|event_data.location_id|string|Captures the Location Id. Please refer to this document to determine location ID.
+https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_IaN-CBoHbRs\/edit\#gid=1543857253|6558, 70561|||||||
 
 ## Attached Notes
 
