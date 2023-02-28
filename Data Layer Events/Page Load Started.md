@@ -37,7 +37,7 @@ dataLayer.push({
 |page_data.page_hash|string|Does the link point to a different domain?||||||||
 |page_data.page_location|string|The url of the page currently being viewed.||||||||
 |page_data.page_path|string|Captures the path portion of the page URL.||||||||
-|page_data.page_query_string|string|This parameter is already configured by Google Tag Manager and Google Analytics.||||||||
+|page_data.page_query_string|string|The query string portion of the URL.||||||||
 |page_data.site_section|string|The section of the site that the current page resides in. site\_section2 through site\_section5can also be used if the site has many sections.||||||||
 |page_data.site_section2|string|Captures the sub-section of the site where the page being viewed is located|Shop &gt; Kids, Shop &gt; Mens, Shop &gt; Womens|||||||
 |page_data.site_variant|string|Describes the version of the site that is being shown|Responsive, Mobile, Desktop|||||||
