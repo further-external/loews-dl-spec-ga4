@@ -49,7 +49,7 @@ dataLayer.push({
 |checkout_type|string|captures Checkout Type||||||||
 |ecommerce.coupon|string|Order-level coupon code used for a purchase.|summer\_fun|||||||
 |ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
-|ecommerce.items[n].arrival_date|string|the arrival date of a booking||||||||
+|ecommerce.items[n].arrival_date|string|the arrival date of a booking|YYYY-MM-DD|||||||
 |ecommerce.items[n].coupon|string|Item-level coupon code used for a purchase.|SUMMER\_FUN|||||||
 |ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
