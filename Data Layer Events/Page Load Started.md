@@ -33,7 +33,7 @@ dataLayer.push({
 |page_data.country|string|The country associated with the current page.|US, CA, FR, UK|||||||
 |page_data.language|string|The language of the current page, usually pulled from the &lt;html&gt; tag lang attribute.|en-us, en-gb, ch-cn, fr-ca, fr-fr|||||||
 |page_data.name|string|Captures the name of the page the user is on|product - XYZ123, Mens - Tops - Sweaters, Order Confirmation|||||||
-|page_data.page_location|string|The url of the page currently being viewed.||||||||
+|page_data.page_location|string|The URL of the page currently being viewed. This value will include the full, unaltered URL of the page\/screen the user is currently viewing, including query parameters, fragments, etc., for example https:\/\/www.example.com\/home?user=true&audience=test\#aboutus.|https:\/\/www.example.com\/home?user=true&audience=test\#aboutus|||||||
 |page_data.page_path|string|Captures the path portion of the page URL.||||||||
 |page_data.page_query_string|string|The query string portion of the URL.||||||||
 |page_data.site_section|string|The section of the site that the current page resides in. site\_section2 through site\_section5can also be used if the site has many sections.||||||||
