@@ -16,7 +16,6 @@ dataLayer.push({
         "market_code": "<market_code>",
         "number_of_adults": <number_of_adults>,
         "number_of_children": <number_of_children>,
-        "onsite_search_date_count": <onsite_search_date_count>,
         "rate_code": "<rate_code>",
         "start_date": "<start_date>",
         "type": "<type>"
@@ -35,7 +34,6 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 |event_data.market_code|string|market code||||||||
 |event_data.number_of_adults|integer|Captures the number of adults entered in search criteria.|1, 2, 3, 4, 5||||1|||
 |event_data.number_of_children|integer|Captures the number of children entered in search criteria.|1, 2, 3, 4, 5||||0|||
-|event_data.onsite_search_date_count|integer|Captures the number of dates requested in search criteria.|8, 1, 5, 6, 7, 10||||1|||
 |event_data.rate_code|string|Room Rate Code||||||||
 |event_data.start_date|string|Captures the start date requested in search criteria. \(e.g. check-in date\)|2022-10-22, 2023-01-15|^([0-9]{4})-(1[0-2]|0[1-9])-(3[01]|0[1-9]|[12][0-9])$||||||
 |event_data.type|string|Captures the type of on-site search performed \(i.e., content, product, location, product location, scheduled event, room, report\)|products, properties, articles, authors, coupons, publications|||||||
