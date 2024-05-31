@@ -81,7 +81,7 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 
 <div class="pa-5 notes mb-5" data-v-39a3426a="">
 <div class="preview-content mt-3" data-v-39a3426a="">
-<p>This will fire on the final screen in the booking flow where a user enters personal info, credit card info, etc. Right now this is the 'Review &amp; Book' screen</p>
+<p>This will fire on the final screen in the booking flow where a user enters credit card info and completes the captcha validation. etc. Right now this is the 'Review &amp; Book' screen</p>
 </div>
 </div>
 <pre class="highlight mb-5" data-v-39a3426a="" data-qa="property-dataLayer-Accommodation Booking Started-wrapper">&nbsp;</pre>
