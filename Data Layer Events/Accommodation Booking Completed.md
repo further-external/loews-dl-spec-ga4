@@ -36,9 +36,9 @@ dataLayer.push({
         "value": <value>
     },
     "event_data": {
-        "payment_method": "<payment_method>",
-    }
-     "user_data": [{
+        "payment_method": "<payment_method>"
+    },
+     "user_data": {
                "sha256_first_name": "<hashed_user_first_name>",
                "sha256__last_name": "<hashed_user_last_name>",
                "sha256_user_email": "<hashed_user_email>",
@@ -48,7 +48,7 @@ dataLayer.push({
                "sha256_region": "<hashed_region>",
                "sha256_postal_code": "<hashed_postal_code>",
                "sha256_country": "<hashed_country>"
-            }]
+            }
 });
 ```
 
