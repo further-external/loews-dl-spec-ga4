@@ -74,3 +74,4 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 <p>User selects a rate.</p>
 <p>On reservations.loewshotels.com, this is the "Select This Rate" button</p>
 <p>on be.synxis.com, this is the <span style="font-weight: 400;">&ldquo;Book Now&rdquo; button.</span></p>
+<p>Please populate the user personal data encripted once it is captured(user creates an account/user provides guest information at checkout process) </p>
