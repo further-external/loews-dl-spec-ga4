@@ -12,8 +12,11 @@ dataLayer.push({
   "detailed_event": "Accommodation Booking Completed",
     "checkout_type": "<checkout_type>",
     "ecommerce": {
-        "coupon": "<coupon>",
+        "transaction_id": "<transaction_id>",
+        "value": <value>,
         "currency": "<currency>",
+        "coupon": "<coupon>",
+        "payment_method": "<payment_method>"
         "items": [
             {
                 "arrival_date": "<arrival_date>",
@@ -32,8 +35,6 @@ dataLayer.push({
                 "room_type_code": "<room_type_code>"
             }
         ],
-        "transaction_id": "<transaction_id>",
-        "value": <value>
     },
     "event_data": {
         "payment_method": "<payment_method>"
