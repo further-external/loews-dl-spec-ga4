@@ -58,3 +58,4 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 ## Attached Notes
 
 <p>This event should fire when a booking is cancelled.</p>
+<p>Please populate the user personal data encripted once it is captured(user creates an account/user provides guest information at checkout process) </p>
