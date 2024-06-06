@@ -11,6 +11,8 @@ dataLayer.push({
   "detailed_event": "Accommodation Booking Add Payment",
     "ecommerce": {
         "currency": "<currency>",
+        "value": <value>,
+        "payment_method": "<payment_method>",
         "items": [
             {
                 "arrival_date": "<arrival_date>",
@@ -26,9 +28,9 @@ dataLayer.push({
                 "room_rate_code": "<room_rate_code>",
                 "room_type_code": "<room_type_code>"
             }
-        ],
-        "value": <value>,
-        "event_data": {
+        ]
+    },
+    "event_data": {
                "payment_method": "<payment_method>"
         },
         "user_data": {
@@ -42,7 +44,7 @@ dataLayer.push({
                "sha256_postal_code": "<hashed_postal_code>",
                "sha256_country": "<hashed_country>"
             }
-    }
+
 });
 ```
 
