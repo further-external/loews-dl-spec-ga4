@@ -10,6 +10,8 @@ dataLayer.push({
   "event": "add_to_cart",
   "detailed_event": "Rate Selected",
     "ecommerce": {
+        "currency": "<currency>",
+        "value": <value>,
         "items": [
             {
                 "arrival_date": "<arrival_date>",
@@ -23,7 +25,9 @@ dataLayer.push({
                 "quantity": <quantity>,
                 "room_rate_code": "<room_rate_code>",
                 "room_type_code": "<room_type_code>"
-            },
+            }
+            ]
+        },
         "user_data": {
                "sha256_first_name": "<hashed_user_first_name>",
                "sha256__last_name": "<hashed_user_last_name>",
@@ -34,8 +38,6 @@ dataLayer.push({
                "sha256_region": "<hashed_region>",
                "sha256_postal_code": "<hashed_postal_code>",
                "sha256_country": "<hashed_country>"
-            }
-        ]
     }
 });
 ```
