@@ -82,4 +82,5 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 ## Attached Notes
 
 <p>This will fire on the final screen in the booking flow where a user enters credit card info and completes the captcha validation. Right now this is the 'Review &amp; Book' screen(https://reservations.loewshotels.com/billing)</p>
+<p>Please populate the user personal data encripted once it is captured(user creates an account/user provides guest information at checkout process) </p>
 
