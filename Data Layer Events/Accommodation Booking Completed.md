@@ -10,13 +10,13 @@ dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   "event": "purchase",
   "detailed_event": "Accommodation Booking Completed",
-    "checkout_type": "<checkout_type>",
     "ecommerce": {
         "transaction_id": "<transaction_id>",
         "value": <value>,
         "currency": "<currency>",
         "coupon": "<coupon>",
-        "payment_method": "<payment_method>"
+        "payment_method": "<payment_method>",
+        "checkout_type": "<checkout_type>",
         "items": [
             {
                 "arrival_date": "<arrival_date>",
@@ -37,7 +37,8 @@ dataLayer.push({
         ],
     },
     "event_data": {
-        "payment_method": "<payment_method>"
+        "payment_method": "<payment_method>",
+        "checkout_type": "<checkout_type>",
     },
      "user_data": {
                "sha256_first_name": "<hashed_user_first_name>",
