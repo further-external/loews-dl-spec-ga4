@@ -30,6 +30,7 @@ dataLayer.push({
         ],
         },
          "user_data": {
+               "user_id": "<user_id>",
                "sha256_first_name": "<hashed_user_first_name>",
                "sha256__last_name": "<hashed_user_last_name>",
                "sha256_user_email": "<hashed_user_email>",
@@ -62,6 +63,7 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
 |ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
+|user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 |sha256_first_name|string|required|The Hashed and encoded first name of the user.|916b1f01b7d7c08d6a19905fa9eea0fa34289ccf0c0b0e29d523fc57b78283cc|
 |sha256_last_name|string|required|Hashed and encoded last name of the user.|10eb1eee807536048c3b55f44cc5fe82ae6ab3c4fa89226758a41d02bd53e5d2|
 |sha256_email_address|string|required|Hashed and encoded email address of the user.|c90b8279a7042d9d6342bdf1d71699814111d8dc95b9e030e4dbb8d186b41a6f|
