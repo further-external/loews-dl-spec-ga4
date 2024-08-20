@@ -11,6 +11,8 @@ dataLayer.push({
   "event": "refund",
   "detailed_event": "Accommodation Booking Cancelled",
     "ecommerce": {
+        "transaction_id": "<transaction_id>",
+        "value": <value>,
         "currency": "<currency>",
         "items": [
             {
@@ -25,9 +27,7 @@ dataLayer.push({
                 "room_rate_code": "<room_rate_code>",
                 "room_type_code": "<room_type_code>"
             }
-        ],
-        "transaction_id": "<transaction_id>",
-        "value": <value>
+        ]
     },
     "event_data": {
         "cancellation_id": "<cancellation_id>"

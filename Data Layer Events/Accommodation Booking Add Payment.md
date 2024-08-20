@@ -1,4 +1,4 @@
-# Rate Selected
+# Accommodation Booking Add Payment
 
 ### 
 
@@ -7,11 +7,12 @@
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ ecommerce: null });  // Clear the previous ecommerce object.
 dataLayer.push({
-  "event": "add_to_cart",
-  "detailed_event": "Rate Selected",
+  "event": "add_payment_info",
+  "detailed_event": "Accommodation Booking Add Payment",
     "ecommerce": {
         "currency": "<currency>",
         "value": <value>,
+        "payment_method": "<payment_method>",
         "items": [
             {
                 "arrival_date": "<arrival_date>",
@@ -22,11 +23,15 @@ dataLayer.push({
                 "market_code": "<market_code>",
                 "number_of_adults": <number_of_adults>,
                 "number_of_children": <number_of_children>,
+                "price": <price>,
                 "quantity": <quantity>,
                 "room_rate_code": "<room_rate_code>",
                 "room_type_code": "<room_type_code>"
             }
-            ]
+        ]
+    },
+    "event_data": {
+               "payment_method": "<payment_method>"
         },
         "user_data": {
                "user_id": "<user_id>",
@@ -39,7 +44,8 @@ dataLayer.push({
                "sha256_region": "<hashed_region>",
                "sha256_postal_code": "<hashed_postal_code>",
                "sha256_country": "<hashed_country>"
-    }
+            }
+
 });
 ```
 
@@ -47,6 +53,7 @@ dataLayer.push({
 
 |Path|Type|Description|Example|Pattern|Min Length|Max Length|Minimum|Maximum|Multiple Of|
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+|ecommerce.currency|string|The currency, in 3-letter ISO 4217 format.||||||||
 |ecommerce.items[n].arrival_date|string|the arrival date of a booking|YYYY-MM-DD|||||||
 |ecommerce.items[n].days_before_start_date|number|captures the Days Before Start Date of the booking||||||||
 |ecommerce.items[n].departure_date|string|captures Departure Date of the booking||||||||
@@ -56,9 +63,12 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 |ecommerce.items[n].market_code|string|captures the Market Code of the booking||||||||
 |ecommerce.items[n].number_of_adults|integer|Captures the number of adults in a booking||||||||
 |ecommerce.items[n].number_of_children|integer|captures the Number of Children in a booking \(ecommerce DE\)||||||||
-|ecommerce.items[n].quantity|integer|Captures the number of nights in the booking||||||||
+|ecommerce.items[n].price|number|The monetary price of the item, in units of the specified currency parameter.|9.99|||||||
+|ecommerce.items[n].quantity|integer|Item quantity.|1|||||||
 |ecommerce.items[n].room_rate_code|string|captures the rate code of the room||||||||
 |ecommerce.items[n].room_type_code|string|captures the room type code of the booking||||||||
+|ecommerce.value|number|The monetary value of the event.|7.77, 239.55, 659|||||||
+|event_data.payment_method|string|Captures the payment methods used for a transaction \(i.e. credit card, Visa, MasterCard, Amex, Paypal, purchase order, etc\).|Credit Card, PayPal, Mastercard, Visa, Amex, Discover|||||||
 |user_data.user_id|string|The id of the user currently logged in to the site, if the site offers authentication and the user is authenticated.|123456, abc123|||||||
 |sha256_first_name|string|required|The Hashed and encoded first name of the user.|916b1f01b7d7c08d6a19905fa9eea0fa34289ccf0c0b0e29d523fc57b78283cc|
 |sha256_last_name|string|required|Hashed and encoded last name of the user.|10eb1eee807536048c3b55f44cc5fe82ae6ab3c4fa89226758a41d02bd53e5d2|
@@ -73,7 +83,6 @@ https:\/\/docs.google.com\/spreadsheets\/d\/1PDhNOzXI9E7jZ9obejV4owtW3Wtwq66\_Ia
 
 ## Attached Notes
 
-<p>User selects a rate.</p>
-<p>On reservations.loewshotels.com, this is the "Select This Rate" button</p>
-<p>on be.synxis.com, this is the <span style="font-weight: 400;">&ldquo;Book Now&rdquo; button.</span></p>
+<p>This will fire on the final screen in the booking flow where a user enters credit card info and completes the captcha validation. Right now this is the 'Review &amp; Book' screen(https://reservations.loewshotels.com/billing)</p>
 <p>Please populate the user personal data encripted once it is captured(user creates an account/user provides guest information at checkout process) </p>
+
