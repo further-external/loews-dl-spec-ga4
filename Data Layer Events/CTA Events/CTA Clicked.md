@@ -8,14 +8,14 @@ All outbound links are tracked automatically. Other needs to be tagged with Java
 
 ```js
 // When:
-// User clicks a non anchor tag used for an action, i.e. <button>
+// User clicks a non-anchor tag used for an action, i.e. <button>
 
 // Code
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   event: "click",
-  detailed_event: "CTA Link Clicked",
+  detailed_event: "CTA Clicked",
   event_data: {
     identifier: '<identifier>', // REQUIRED | string | ex. uniquely_created_id
     name: '<name>', // REQUIRED | string | ex. Learn More, Book Now, Feedback, Connect
