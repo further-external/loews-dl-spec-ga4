@@ -9,7 +9,7 @@ Event when a user interacts with a a key event. This can be anything like a link
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  "event": "click",
+  "event": "cta_click",
   "detailed_event": "CTA Link Clicked",
     "event_data": {
         "component_ancestry": "<component_ancestry>",
