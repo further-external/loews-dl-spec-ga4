@@ -13,6 +13,7 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   event: 'carousel_slide_next',
+  detailed_event: 'Next Carousel Slide',
   event_data: {
     identifier: "<identifier>",
     name: "<name>",
