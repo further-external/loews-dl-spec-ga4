@@ -15,6 +15,7 @@ window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
   event: "click",
+  detailed_event: "CTA Link Clicked",
   event_data: {
     identifier: '<identifier>', // REQUIRED | string | ex. uniquely_created_id
     name: '<name>', // REQUIRED | string | ex. Learn More, Book Now, Feedback, Connect
