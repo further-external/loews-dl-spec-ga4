@@ -14,7 +14,7 @@ All outbound links are tracked automatically. Other needs to be tagged with Java
 window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
-  event: "click",
+  event: "cta_click",
   detailed_event: "CTA Clicked",
   event_data: {
     identifier: '<identifier>',
