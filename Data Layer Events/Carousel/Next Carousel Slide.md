@@ -1,4 +1,4 @@
-# Carousel Slide Clicked
+# Next Carousel Slide
 
 Fire whenever a user interacts with the next carousel slide control
 
