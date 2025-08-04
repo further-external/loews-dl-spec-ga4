@@ -9,7 +9,7 @@ Send when users manually close a modal, usually with an icon like an "X" or "clo
 // Send when users manually close a modal, usually with an icon like an "X" or "close".
 
 // Code:
-window.dataLayer = window.globalDataLayer || [];
+window.dataLayer = window.dataLayer || [];
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
 dataLayer.push({
 event: 'modal_close',
