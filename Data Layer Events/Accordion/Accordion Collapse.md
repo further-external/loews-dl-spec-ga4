@@ -19,7 +19,7 @@ dataLayer.push({
     name: "<name>", // REQUIRED | string | ex. Where To Begin, Having Important Conversations, Financial Options
     heading: "<heading>", // REQUIRED | string | ex. How to Get Started
     index: "<index>", // contextual | integer | ex. 1 | min. lgth. 1 | min. 1
-    type: "<type>" // contextual | string | ex. FAQ
+    type: "<type>" // contextual | string | ex. FAQ, Ingredient Type
   }
 });
 ```
