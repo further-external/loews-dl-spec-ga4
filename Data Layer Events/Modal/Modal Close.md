@@ -16,8 +16,8 @@ event: 'modal_close',
 detailed_event: 'Model Close',
 event_data: {
   modal_name: "<modal_name>", // REQUIRED | string | ex. "privacy_settings"
-  step_name: "<step_name>", // REQUIRED | string | ex. "We Value Your Privacy"
-  step_number: "<step_number>", // REQUIRED | integer | ex. 1
+  step_name: "<step_name>", // contextual | string | ex. "We Value Your Privacy"
+  step_number: "<step_number>", // contextual | integer | ex. 1
   }
 });
 dataLayer.push({ event_data: null });  // Clear the previous event_data object.
