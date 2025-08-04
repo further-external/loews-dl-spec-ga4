@@ -16,9 +16,9 @@ dataLayer.push({
   detailed_event: 'Model CTA Click',
   event_data: {
     modal_name: '<modal_name>', // REQUIRED | string | ex. "privacy_settings"
-    step_name: '<step_name>', // REQUIRED | string | ex. "We Value Your Privacy"
-    step_number: '<step_number>', // REQUIRED | integer | ex. 1
-    cta_text: '<cta_text>', // contenxtual | string | ex."Go To Link"
+    step_name: '<step_name>', // contextual | string | ex. "We Value Your Privacy"
+    step_number: '<step_number>', // contextual | integer | ex. 1
+    cta_text: '<cta_text>', // contextual | string | ex."Go To Link"
     cta_outbound: '<cta_outbound>' // required | ex. true, false
   }
 });
